@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'newfont';
+    src: url('fonts/newfont.eot');
+    src: url('fonts/newfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/newfont.woff') format('woff'),
+    url('fonts/newfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---------------------------------------------------------------
+header css:
+*/
+header{
+    position: relative;
+    max-height:350px;
+    margin: 10px;
+    clear: both;
+}
+.image-header{
+    width:1298px;
+    max-height:350px;
+    padding-left: 20px;
+}
+.title-header{
+    font-size:300%;
+    position:absolute;
+    color:#f9f9f9;
+    margin: -322px 50px 0px 200px;
+    float: left;
+}
+/*---------------------------------------------------------------
+nave css:
+*/
+.ul-nav{
+    list-style-type: none;
+    padding:20px 25px 0px;
+    margin: 10px ;
+    background-color:cyan;
+    width: 1248px;
+    height: 40px;
+}
+.ul-nav li{
+
+    display: inline;
+
+}
+.ul-nav li a{
+    margin:0px 10px 0px 10px;
+    padding: 14px 16px;
+    color: #000000;
+    text-align:center;
+    text-decoration: none;
+}
+.menu-item a:link{
+    background-color:cyan;
+}
+.menu-item a:hover{
+    background-color: darkgrey;
+}
+.menu-item a:active{
+    background-color:azure;
+}
+
+/*---------------------------------------------------------------
+aside css:
+*/
+.asid {
+    float:right;
+    width: 300px;
+}
+.ul-as{
+    list-style-type: none;
+    padding:20px 25px 0px;
+    margin: 10px ;
+    background-color:cyan;
+    width: 100px;
+    height: 300px;
+}
+.ul-as li a{
+    display:block;
+    margin:0px 10px 0px 10px;
+    padding: 14px 16px;
+    color:#000000;
+    text-align:center;
+    text-decoration: none;
+}
+/*.fi a:link{
+    background-color:azure;
+}*/
+li a:hover{
+    background-color: darkgrey;
+}
+li a:active{
+    background-color:azure;
+}
+#text{
+    padding:1px 25px 0px;
+    margin: 10px ;
+    background-color:aquamarine;
+    width: 100px;
+    height: 50px
+}
+
+/*----------------------------------------------------------------
+ 
+@media only screen and (min-width: 1600px) {
+    .section{
+        margin: 11px -100px 0px 0px;
+    }
+}
+/*----------------------------------------------------------------
+
+@media only screen and (min-width: 3000px) {
+    .section{
+        margin: 11px -100px 0px 0px;
+        width: 1200px;
+    }
+}
+/*----------------------------------------------------------------
+
+@media only screen and (min-width: 5000px) {
+    .section{
+        width:1283px;
+    }
+    #but1 , #but2 ,#but3{
+        padding: 0px;
+    }
+}
+/*----------------------------------------------------------------
+
+ 
+#menu3 ,#menu-3 {
+    background-color:azure;
+}*/
